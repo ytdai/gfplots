@@ -1,3499 +1,1163 @@
 [
   {
-    "accession": ["Q01196"],
-    "entryName": ["RUNX1_HUMAN"],
-    "sequence": ["MRIPVDASTSRRFTPPSTALSPGKMSEALPLGAPDAGAALAGKLRSGDRSMVEVLADHPGELVRTDSPNFLCSVLPTHWRCNKTLPIAFKVVALGDVPDGTLVTVMAGNDENYSAELRNATAAMKNQVARFNDLRFVGRSGRGKSFTLTITVFTNPPQVATYHRAIKITVDGPREPRRHRQKLDDQTKPGSLSFSERLSELEQLRRTAMRVSPHHPAPTPNPRASLNHSTAFNPQPQSQMQDTRQIQPSPPWSYDQSYQYLGSIASPSVHPATPISPGRASGMTTLSAELSSRLSTAPDLTAFSDPRQFPALPSISDPRMHYPGAFTYSPTPVTSGIGIGMSAMGSATRYHTYLPPPYPGSSQAQGGPFQASSPSYHLYYGASAGSYQFSMVGGERSPPRILPPCTNASTGSALLNPSLPNQSDVVEAEGSHSNSPTNMAPSARLEEAVWRPY"],
-    "sequenceChecksum": ["5701303392264903595"],
+    "accession": ["O43521"],
+    "name": ["B2L11_HUMAN"],
     "taxid": [9606],
-    "features": [
+    "sequence": ["MAKQPSDVSSECDREGRQLQPAERPPQLRPGAPTSLQTEPQGNPEGNHGGEGDSCPHGSPQGPLAPPASPGPFATRSPLFIFMRRSSLLSRSSSGYFSFDTDRSPAPMSCDKSTQTPSPPCQAFNHYLSAMASMRQAEPADMRPEIWIAQELRRIGDEFNAYYARRVFLNNYQAAEDHPRMVILRLLRYIVRLVWRMH"],
+    "protein": {
+      "recommendedName": {
+        "fullName": ["Bcl-2-like protein 11"],
+        "shortName": [
+          ["Bcl2-L-11"]
+        ]
+      },
+      "alternativeName": [
+        {
+          "fullName": ["Bcl2-interacting mediator of cell death"]
+        }
+      ]
+    },
+    "gene": [
       {
-        "type": ["VARIANT"],
-        "ftId": ["VAR_012129"],
-        "alternativeSequence": ["Q"],
-        "begin": ["174"],
-        "end": ["174"],
-        "xrefs": [
-          {
-            "name": ["dbSNP"],
-            "id": ["rs74315450"],
-            "url": ["http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=rs74315450"]
-          },
-          {
-            "name": ["Ensembl"],
-            "id": ["rs74315450"],
-            "url": ["http://www.ensembl.org/id/rs74315450"]
-          }
-        ],
-        "wildType": ["R"],
-        "somaticStatus": [0],
-        "consequenceType": ["missense"],
-        "association": [
-          {
-            "name": ["Familial platelet disorder with associated myeloid malignancy (FPDMM)"],
-            "description": ["impaired phosphorylation"],
-            "xrefs": [
-              {
-                "name": ["OMIM"],
-                "id": ["601399"],
-                "url": ["http://www.omim.org/entry/601399"]
-              }
-            ],
-            "evidences": [
-              {
-                "code": ["ECO:0000269"],
-                "source": {
-                  "name": ["PubMed"],
-                  "id": ["18695000"],
-                  "url": ["http://www.ncbi.nlm.nih.gov/pubmed/18695000"],
-                  "alternativeUrl": ["http://europepmc.org/abstract/MED/18695000"]
+        "value": ["BCL2L11"],
+        "type": ["primary"]
+      },
+      {
+        "value": ["BIM"],
+        "type": ["synonym"]
+      }
+    ],
+    "gnCoordinate": [
+      {
+        "genomicLocation": {
+          "exon": [
+            {
+              "proteinLocation": {
+                "begin": {
+                  "position": [1],
+                  "status": ["certain"]
+                },
+                "end": {
+                  "position": [132],
+                  "status": ["certain"]
                 }
               },
-              {
-                "code": ["ECO:0000269"],
-                "source": {
-                  "name": ["PubMed"],
-                  "id": ["10508512"],
-                  "url": ["http://www.ncbi.nlm.nih.gov/pubmed/10508512"],
-                  "alternativeUrl": ["http://europepmc.org/abstract/MED/10508512"]
+              "genomeLocation": {
+                "begin": {
+                  "position": [111123746],
+                  "status": ["certain"]
+                },
+                "end": {
+                  "position": [111124139],
+                  "status": ["certain"]
                 }
-              }
-            ],
-            "disease": [true]
-          }
-        ],
-        "clinicalSignificances": ["disease"],
-        "sourceType": ["uniprot"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["D"],
-        "begin": ["111"],
-        "end": ["111"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs771823558"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs771823558"]
-          }
-        ],
-        "wildType": ["E"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.949],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880651T>G, NC_000021.9:g.34880651T>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["29"],
-        "end": ["29"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs111527738"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs111527738;vdb=variation"]
-          },
-          {
-            "name": ["ESP"],
-            "id": ["rs111527738"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs111527738&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs111527738"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs111527738"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0.0104],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.994],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.73],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887027A>G"],
-        "clinicalSignificances": ["likely benign"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["T"],
-        "begin": ["122"],
-        "end": ["122"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs752926959"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs752926959"]
-          }
-        ],
-        "wildType": ["A"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.998],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880620C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["338"],
-        "end": ["338"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs752616540"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs752616540"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.346],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792485C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["96"],
-        "end": ["96"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs373498347"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs373498347&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs373498347"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs373498347"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.431],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880698C>T"],
-        "clinicalSignificances": ["pathogenic"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["423"],
-        "end": ["423"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs781167744"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs781167744"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.003],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.84],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792229C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["G"],
-        "begin": ["425"],
-        "end": ["425"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs751710767"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs751710767"]
-          }
-        ],
-        "wildType": ["V"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [1],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792223A>C"],
-        "clinicalSignificances": ["likely benign"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["228"],
-        "end": ["228"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs746977462"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs746977462"]
-          }
-        ],
-        "wildType": ["H"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.049],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.17],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834451T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["57"],
-        "end": ["57"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs779860067"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs779860067"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.964],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.02],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886944C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["206"],
-        "end": ["206"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs150042294"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs150042294;vdb=variation"]
-          },
-          {
-            "name": ["ESP"],
-            "id": ["rs150042294"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs150042294&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs150042294"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs150042294"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.987],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.38],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834517C>T"],
-        "clinicalSignificances": ["likely benign"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["T"],
-        "begin": ["264"],
-        "end": ["264"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs371026644"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs371026644&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs371026644"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs371026644"]
-          }
-        ],
-        "wildType": ["I"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.307],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.2],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799396A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["D"],
-        "begin": ["61"],
-        "end": ["61"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs542902574"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs542902574;vdb=variation"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs542902574"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs542902574"]
-          }
-        ],
-        "wildType": ["E"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.949],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886930C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["V"],
-        "begin": ["391"],
-        "end": ["391"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs578042376"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs578042376;vdb=variation"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.001],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.06],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792326T>C"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["42"],
-        "end": ["42"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs777168865"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs777168865"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.397],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.17],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886989C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["69"],
-        "end": ["69"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs754168875"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs754168875"]
-          }
-        ],
-        "wildType": ["N"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.798],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.07],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886907T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["305"],
-        "end": ["305"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs757030094"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs757030094"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.236],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.09],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792584C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["C"],
-        "begin": ["206"],
-        "end": ["206"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs765528082"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs765528082"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.99],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834518G>A"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["82"],
-        "end": ["82"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs767874011"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs767874011"]
-          }
-        ],
-        "wildType": ["N"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.998],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886869T>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["282"],
-        "end": ["282"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs752288830"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs752288830"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.03],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799343C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Y"],
-        "begin": ["305"],
-        "end": ["305"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs757030094"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs757030094"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.734],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792584C>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["128"],
-        "end": ["128"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs750866158"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs750866158"]
-          }
-        ],
-        "wildType": ["V"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.998],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880601A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["368"],
-        "end": ["368"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs765629212"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs765629212"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.554],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792395G>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["M"],
-        "begin": ["219"],
-        "end": ["219"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs555366994"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs555366994;vdb=variation"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs555366994"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs555366994"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.548],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.1],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834478G>A"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["20"],
-        "end": ["20"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs770530237"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs770530237"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.997],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887054A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["M"],
-        "begin": ["273"],
-        "end": ["273"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs758682659"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs758682659"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.818],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799369G>A"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["285"],
-        "end": ["285"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs751191137"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs751191137"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [1],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799334T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["34"],
-        "end": ["34"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs776929941"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs776929941"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.162],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.25],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887013G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["190"],
-        "end": ["190"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs749004431"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs749004431"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.999],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.02],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834566C>T"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Q"],
-        "begin": ["20"],
-        "end": ["20"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs770530237"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs770530237"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.997],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887054A>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Y"],
-        "begin": ["66"],
-        "end": ["66"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs757412228"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs757412228"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.998],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886917C>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["2"],
-        "end": ["2"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs769876579"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs769876579"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.038],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.22],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887108C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["309"],
-        "end": ["309"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs756010562"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs756010562"]
-          }
-        ],
-        "wildType": ["F"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.966],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792572A>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["240"],
-        "end": ["240"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs757570529"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs757570529"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [1],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834414C>T"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["42"],
-        "end": ["42"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs777168865"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs777168865"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.978],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.18],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886989C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["286"],
-        "end": ["286"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs766264813"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs766264813"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.855],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.07],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799330A>C"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["364"],
-        "end": ["364"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs773725073"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs773725073"]
-          }
-        ],
-        "wildType": ["A"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.726],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.12],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792407C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["M"],
-        "begin": ["14"],
-        "end": ["14"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs769087155"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs769087155"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.996],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887072G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["439"],
-        "end": ["439"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs762213305"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs762213305"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.833],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [1],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792182T>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["24"],
-        "end": ["24"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs780977528"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs780977528"]
-          }
-        ],
-        "wildType": ["K"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.991],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887041C>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["22"],
-        "end": ["22"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs755793721"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs755793721"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.035],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.47],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887049G>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["49"],
-        "end": ["49"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs780816315"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs780816315"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.039],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886967C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["K"],
-        "begin": ["256"],
-        "end": ["256"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs374341207"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs374341207&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs374341207"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs374341207"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.056],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.13],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799421G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["E"],
-        "begin": ["96"],
-        "end": ["96"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs768100078"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs768100078"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.003],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.4],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880696A>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["E"],
-        "begin": ["6"],
-        "end": ["6"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs762090330"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs762090330"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.062],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.12],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887095A>T"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["V"],
-        "begin": ["33"],
-        "end": ["33"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs765314703"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs765314703"]
-          }
-        ],
-        "wildType": ["A"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.388],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.08],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887015G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["124"],
-        "end": ["124"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs755340590"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs755340590"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.007],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.11],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880612C>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["330"],
-        "end": ["330"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs375989348"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs375989348&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs375989348"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs375989348"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.188],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792509G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["C"],
-        "begin": ["338"],
-        "end": ["338"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs752616540"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs752616540"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.687],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792485C>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["K"],
-        "begin": ["259"],
-        "end": ["259"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs769966051"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs769966051"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.121],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.37],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799412G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["201"],
-        "end": ["201"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs751447523"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs751447523"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.995],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834532A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["21"],
-        "end": ["21"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs748720882"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs748720882"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.968],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.09],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887051C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["22"],
-        "end": ["22"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs752298116"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs752298116"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.15],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887048G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["189"],
-        "end": ["189"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs773743843"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs773743843"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.996],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.02],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834568G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["318"],
-        "end": ["318"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs774629580"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs774629580"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.177],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792544G>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["370"],
-        "end": ["370"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs762292084"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs762292084"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.982],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792388T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["C"],
-        "begin": ["60"],
-        "end": ["60"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs561166961"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs561166961;vdb=variation"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.985],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886935C>A"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["296"],
-        "end": ["296"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs776703625"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs776703625"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.56],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799301T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["290"],
-        "end": ["290"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs750414302"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs750414302"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.383],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.05],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799318A>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["E"],
-        "begin": ["424"],
-        "end": ["424"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs755054505"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs755054505"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.015],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.32],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792225G>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["211"],
-        "end": ["211"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs761086208"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs761086208"]
-          }
-        ],
-        "wildType": ["V"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.107],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.16],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834503C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["34"],
-        "end": ["34"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs769213771"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs769213771"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.225],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.1],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887012G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["333"],
-        "end": ["333"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs778511514"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs778511514"]
-          }
-        ],
-        "wildType": ["V"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.956],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792499A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "ftId": ["VAR_013178"],
-        "alternativeSequence": ["R"],
-        "begin": ["433"],
-        "end": ["433"],
-        "xrefs": [
-          {
-            "name": ["dbSNP"],
-            "id": ["rs1055309"],
-            "url": ["http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=rs1055309"]
-          },
-          {
-            "name": ["Ensembl"],
-            "id": ["rs1055309"],
-            "url": ["http://www.ensembl.org/id/rs1055309"]
-          }
-        ],
-        "wildType": ["S"],
-        "somaticStatus": [0],
-        "consequenceType": ["missense"],
-        "sourceType": ["uniprot"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["236"],
-        "end": ["236"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs370315332"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs370315332&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs370315332"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs370315332"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.202],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.25],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834428G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Q"],
-        "begin": ["293"],
-        "end": ["293"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs761688033"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs761688033"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.968],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.09],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799309C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["26"],
-        "end": ["26"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs751557379"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs751557379"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.272],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.13],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887036C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["351"],
-        "end": ["351"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs763216991"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs763216991"]
-          }
-        ],
-        "wildType": ["H"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.986],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792445T>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["414"],
-        "end": ["414"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs777551786"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs777551786"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.999],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792256A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["336"],
-        "end": ["336"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs777498866"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs777498866"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.075],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.13],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792490C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Q"],
-        "begin": ["289"],
-        "end": ["289"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs762642960"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs762642960"]
-          }
-        ],
-        "wildType": ["E"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.475],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.21],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799322C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["268"],
-        "end": ["268"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs780399121"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs780399121"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.003],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799385A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["K"],
-        "begin": ["25"],
-        "end": ["25"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs200431130"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs200431130&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs200431130"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs200431130"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.921],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887039A>T"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["G"],
-        "begin": ["196"],
-        "end": ["196"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs780999703"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs780999703"]
-          }
-        ],
-        "wildType": ["E"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.979],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834547T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Q"],
-        "begin": ["251"],
-        "end": ["251"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs759227406"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs759227406"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.881],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799435G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["D"],
-        "begin": ["282"],
-        "end": ["282"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs780802526"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs780802526"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.338],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799342C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["291"],
-        "end": ["291"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs545554349"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs545554349"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.91],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.57],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799316A>G"],
-        "clinicalSignificances": ["benign"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["84"],
-        "end": ["84"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs759974526"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs759974526"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.996],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886862G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["407"],
-        "end": ["407"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs748885850"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs748885850"]
-          }
-        ],
-        "wildType": ["N"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.989],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.87],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792277T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["K"],
-        "begin": ["53"],
-        "end": ["53"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs754818228"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs754818228"]
-          }
-        ],
-        "wildType": ["E"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.269],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886956C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["330"],
-        "end": ["330"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs745561479"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs745561479"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.44],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792508G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["C"],
-        "begin": ["279"],
-        "end": ["279"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs202037007"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs202037007;vdb=variation"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs202037007"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs202037007"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.818],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799352G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["306"],
-        "end": ["306"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs200104203"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs200104203;vdb=variation"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs200104203"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs200104203"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.182],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792580G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["127"],
-        "end": ["127"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs751954304"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs751954304"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.991],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.06],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880604T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["V"],
-        "begin": ["42"],
-        "end": ["42"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs769235124"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs769235124"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.96],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.19],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886988C>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["P"],
-        "begin": ["445"],
-        "end": ["445"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs764689239"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs764689239"]
-          }
-        ],
-        "wildType": ["L"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.939],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792163A>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["338"],
-        "end": ["338"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs752616540"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs752616540"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.043],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.78],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792485C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["181"],
-        "end": ["181"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs777320434"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs777320434"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.988],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834592T>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "description": ["[LSS_ENSEMBL]: TRANSIENT MYELOPROLIFERATIVE DISORDER OF DOWN SYNDROME"],
-        "alternativeSequence": ["N"],
-        "begin": ["58"],
-        "end": ["58"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs121912500"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs121912500"]
-          }
-        ],
-        "wildType": ["H"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.983],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34886941G>T"],
-        "clinicalSignificances": ["pathogenic"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["420"],
-        "end": ["420"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs748095101"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs748095101"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.272],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.09],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792239G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["216"],
-        "end": ["216"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs772889171"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs772889171"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.177],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.02],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834487G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["V"],
-        "begin": ["209"],
-        "end": ["209"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs200430800"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs200430800;vdb=variation"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs200430800"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs200430800"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0.0004],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.761],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.1],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834509T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["128"],
-        "end": ["128"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs763464804"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs763464804"]
-          }
-        ],
-        "wildType": ["V"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.985],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880602C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["430"],
-        "end": ["430"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs572641102"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs572641102"]
-          }
-        ],
-        "wildType": ["G"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.949],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792208C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["187"],
-        "end": ["187"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs747505757"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs747505757"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.01],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.08],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834574G>A"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["10"],
-        "end": ["10"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs532264127"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs532264127;vdb=variation"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs532264127"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs532264127"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.226],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887084C>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["V"],
-        "begin": ["439"],
-        "end": ["439"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs762213305"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs762213305"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.926],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.15],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792182T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["127"],
-        "end": ["127"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs766681045"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs766681045"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.996],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880603C>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["G"],
-        "begin": ["212"],
-        "end": ["212"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs770402861"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs770402861"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.107],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.47],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834500T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["317"],
-        "end": ["317"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs759684186"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs759684186"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.474],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.34],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792548C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["*"],
-        "begin": ["342"],
-        "end": ["342"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs755073984"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs755073984"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["stop_gained"],
-        "genomicLocation": ["NC_000021.9:g.34792472G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["255"],
-        "end": ["255"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs762953695"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs762953695"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.175],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799424C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["207"],
-        "end": ["207"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs777161188"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs777161188"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.446],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834514G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Q"],
-        "begin": ["205"],
-        "end": ["205"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs368711448"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs368711448&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs368711448"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs368711448"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.968],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.17],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834520C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["342"],
-        "end": ["342"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs755073984"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs755073984"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.058],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.13],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792472G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["247"],
-        "end": ["247"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs370766377"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs370766377&x=0&y=0"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs370766377"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs370766377"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.979],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.02],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799446T>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["A"],
-        "begin": ["291"],
-        "end": ["291"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs545554349"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs545554349"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.661],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.41],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799316A>C"],
-        "clinicalSignificances": ["benign"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["251"],
-        "end": ["251"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs767251526"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs767251526"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.039],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.31],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799436G>A"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["330"],
-        "end": ["330"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs745561479"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs745561479"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.516],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792508G>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["V"],
-        "begin": ["36"],
-        "end": ["36"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs776111803"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs776111803"]
-          }
-        ],
-        "wildType": ["A"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.395],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.05],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887006G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["308"],
-        "end": ["308"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs80314254"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs80314254;vdb=variation"]
-          },
-          {
-            "name": ["ExAC"],
-            "id": ["rs80314254"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs80314254"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.28],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.06],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792573C>A"],
-        "clinicalSignificances": ["likely benign"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "ftId": ["VAR_013177"],
-        "alternativeSequence": ["R"],
-        "begin": ["431"],
-        "end": ["431"],
-        "xrefs": [
-          {
-            "name": ["dbSNP"],
-            "id": ["rs1055308"],
-            "url": ["http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=rs1055308"]
-          },
-          {
-            "name": ["Ensembl"],
-            "id": ["rs1055308"],
-            "url": ["http://www.ensembl.org/id/rs1055308"]
-          }
-        ],
-        "wildType": ["S"],
-        "somaticStatus": [0],
-        "consequenceType": ["missense"],
-        "sourceType": ["uniprot"]
-      },
-      {
-        "type": ["VARIANT"],
-        "ftId": ["VAR_012128"],
-        "alternativeSequence": ["Q"],
-        "begin": ["139"],
-        "end": ["139"],
-        "wildType": ["R"],
-        "somaticStatus": [0],
-        "consequenceType": ["missense"],
-        "association": [
-          {
-            "name": ["Familial platelet disorder with associated myeloid malignancy (FPDMM)"],
-            "xrefs": [
-              {
-                "name": ["OMIM"],
-                "id": ["601399"],
-                "url": ["http://www.omim.org/entry/601399"]
-              }
-            ],
-            "evidences": [
-              {
-                "code": ["ECO:0000269"],
-                "source": {
-                  "name": ["PubMed"],
-                  "id": ["10508512"],
-                  "url": ["http://www.ncbi.nlm.nih.gov/pubmed/10508512"],
-                  "alternativeUrl": ["http://europepmc.org/abstract/MED/10508512"]
+              },
+              "id": ["ENSE00001008808"]
+            },
+            {
+              "proteinLocation": {
+                "begin": {
+                  "position": [132],
+                  "status": ["certain"]
+                },
+                "end": {
+                  "position": [166],
+                  "status": ["certain"]
                 }
+              },
+              "genomeLocation": {
+                "begin": {
+                  "position": [111150044],
+                  "status": ["certain"]
+                },
+                "end": {
+                  "position": [111150147],
+                  "status": ["certain"]
+                }
+              },
+              "id": ["ENSE00003483971"]
+            },
+            {
+              "proteinLocation": {
+                "begin": {
+                  "position": [167],
+                  "status": ["certain"]
+                },
+                "end": {
+                  "position": [198],
+                  "status": ["certain"]
+                }
+              },
+              "genomeLocation": {
+                "begin": {
+                  "position": [111164133],
+                  "status": ["certain"]
+                },
+                "end": {
+                  "position": [111164228],
+                  "status": ["certain"]
+                }
+              },
+              "id": ["ENSE00001924953"]
+            }
+          ],
+          "chromosome": ["2"],
+          "start": [111123746],
+          "end": [111164228],
+          "reverseStrand": [false]
+        },
+        "feature": [
+          {
+            "location": {
+              "begin": {
+                "position": [132],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [166],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
               }
             ],
-            "disease": [true]
-          }
-        ],
-        "clinicalSignificances": ["disease"],
-        "sourceType": ["uniprot"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["K"],
-        "begin": ["155"],
-        "end": ["155"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs773071163"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs773071163"]
-          }
-        ],
-        "wildType": ["N"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.673],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34859541G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["K"],
-        "begin": ["244"],
-        "end": ["244"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs750826029"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs750826029"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.05],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799456C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["T"],
-        "begin": ["222"],
-        "end": ["222"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs780862238"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs780862238"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.09],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834470G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["235"],
-        "end": ["235"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs758593641"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs758593641"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.067],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834430T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["320"],
-        "end": ["320"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs370114565"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs370114565&x=0&y=0"]
+            "type": ["splice variant"],
+            "id": ["VSP_042866"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111124139],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150147],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs370114565"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs370114565"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.015],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792537C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["E"],
-        "begin": ["237"],
-        "end": ["237"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs765362075"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs765362075"]
-          }
-        ],
-        "wildType": ["Q"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.031],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834425G>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["T"],
-        "begin": ["25"],
-        "end": ["25"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs200431130"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs200431130&x=0&y=0"]
+            "original": ["VFLNNYQAAEDHPRMVILRLLRYIVRLVWRMH"],
+            "variation": [
+              ["LAKLLASST"]
+            ],
+            "location": {
+              "begin": {
+                "position": [167],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035618"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111164133],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs200431130"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs200431130"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.885],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.07],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887039A>G"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["96"],
-        "end": ["96"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs373498347"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs373498347&x=0&y=0"]
+            "original": ["VFLNNYQAAEDHPRMVILRLLRYIVRLVWRMH"],
+            "variation": [
+              ["MPLPPD"]
+            ],
+            "location": {
+              "begin": {
+                "position": [167],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035619"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111164133],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs373498347"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs373498347"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.881],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880698C>G"],
-        "clinicalSignificances": ["pathogenic"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["V"],
-        "begin": ["124"],
-        "end": ["124"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs781461238"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs781461238"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.034],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880614T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Q"],
-        "begin": ["197"],
-        "end": ["197"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs754894156"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs754894156"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.968],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.02],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834544C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["391"],
-        "end": ["391"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs202068364"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs202068364;vdb=variation"]
+            "location": {
+              "begin": {
+                "position": [112],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [115],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["1F95"],
+                  "type": ["PDB"]
+                },
+                "code": ["ECO:0000244"]
+              }
+            ],
+            "type": ["strand"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111124079],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111124090],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs202068364"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs202068364"]
-          }
-        ],
-        "wildType": ["M"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.505],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.03],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792325A>C"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["L"],
-        "begin": ["248"],
-        "end": ["248"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs201164283"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs201164283;vdb=variation"]
+            "original": ["NP"],
+            "variation": [
+              ["IF"]
+            ],
+            "location": {
+              "begin": {
+                "position": [43],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [44],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035610"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123872],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111123877],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs201164283"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs201164283"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.025],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.02],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799444G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["N"],
-        "begin": ["110"],
-        "end": ["110"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs775206089"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs775206089"]
-          }
-        ],
-        "wildType": ["D"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.993],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880656C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["C"],
-        "begin": ["263"],
-        "end": ["263"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs748144554"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs748144554"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.174],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.14],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799399G>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["T"],
-        "begin": ["22"],
-        "end": ["22"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs755793721"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs755793721"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.057],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.18],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34887049G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["279"],
-        "end": ["279"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs139336358"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs139336358&x=0&y=0"]
+            "location": {
+              "begin": {
+                "position": [45],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035611"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123878],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs139336358"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs139336358"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.012],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.04],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34799351C>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["T"],
-        "begin": ["221"],
-        "end": ["221"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs747748983"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs747748983"]
-          }
-        ],
-        "wildType": ["N"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0.142],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.15],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834472T>G"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["301"],
-        "end": ["301"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs757999827"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs757999827"]
-          }
-        ],
-        "wildType": ["T"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.585],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.07],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792595G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["298"],
-        "end": ["298"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs746531841"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs746531841"]
-          }
-        ],
-        "wildType": ["P"],
-        "frequency": [0],
-        "polyphenPrediction": ["benign"],
-        "polyphenScore": [0],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.63],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792605G>A"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["Y"],
-        "begin": ["193"],
-        "end": ["193"],
-        "xrefs": [
-          {
-            "name": ["ESP"],
-            "id": ["rs372339407"],
-            "url": ["http://evs.gs.washington.edu/EVS/PopStatsServlet?searchBy=rsID&target=rs372339407&x=0&y=0"]
+            "location": {
+              "begin": {
+                "position": [42],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [101],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["9430630"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["12019181"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["14702039"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_000535"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123869],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111124048],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs372339407"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs372339407"]
-          }
-        ],
-        "wildType": ["S"],
-        "frequency": [0],
-        "polyphenPrediction": ["possibly damaging"],
-        "polyphenScore": [0.564],
-        "siftPrediction": ["tolerated"],
-        "siftScore": [0.2],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834556G>T"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["S"],
-        "begin": ["309"],
-        "end": ["309"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs752745196"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs752745196"]
-          }
-        ],
-        "wildType": ["F"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.979],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792571A>G"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["H"],
-        "begin": ["223"],
-        "end": ["223"],
-        "xrefs": [
-          {
-            "name": ["ExAC"],
-            "id": ["rs771614642"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs771614642"]
-          }
-        ],
-        "wildType": ["R"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.987],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34834466C>T"],
-        "clinicalSignificances": ["uncertain significance"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["R"],
-        "begin": ["321"],
-        "end": ["321"],
-        "xrefs": [
-          {
-            "name": ["1000Genomes"],
-            "id": ["rs560102637"],
-            "url": ["http://www.ensembl.org/Homo_sapiens/Variation/Explore?v=rs560102637;vdb=variation"]
+            "location": {
+              "begin": {
+                "position": [1],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "description": ["Bcl-2-like protein 11."],
+            "type": ["chain"],
+            "id": ["PRO_0000143109"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123746],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
           },
           {
-            "name": ["ExAC"],
-            "id": ["rs560102637"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs560102637"]
-          }
-        ],
-        "wildType": ["H"],
-        "frequency": [0.0002],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.966],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34792535T>C"],
-        "sourceType": ["large_scale_study"]
-      },
-      {
-        "type": ["VARIANT"],
-        "alternativeSequence": ["I"],
-        "begin": ["137"],
-        "end": ["137"],
-        "xrefs": [
+            "original": ["G"],
+            "variation": [
+              ["E"]
+            ],
+            "location": {
+              "position": {
+                "position": [156],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000269"]
+              },
+              {
+                "dbReference": {
+                  "id": ["17289999"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000269"]
+              }
+            ],
+            "type": ["mutagenesis site"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150115],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150117],
+                "status": ["certain"]
+              }
+            }
+          },
           {
-            "name": ["ExAC"],
-            "id": ["rs760221080"],
-            "url": ["http://exac.broadinstitute.org/awesome?query=rs760221080"]
+            "location": {
+              "begin": {
+                "position": [148],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [162],
+                "status": ["certain"]
+              }
+            },
+            "description": ["BH3."],
+            "type": ["short sequence motif"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150091],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150135],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["SMR"],
+            "variation": [
+              ["NWD"]
+            ],
+            "location": {
+              "begin": {
+                "position": [133],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [135],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035615"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150046],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150054],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "begin": {
+                "position": [42],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [166],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_042865"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123869],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150147],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["ASMRQAEPADMRPEIWIAQELRRIGDEFNAYYARRVFLNNYQAAEDHPRMVILRLLRYIVRLVWRMH"],
+            "variation": [
+              ["VVILEDIGDLSLCFGFIFTGLDLYGHHHSQDTEQLNHKDFS"]
+            ],
+            "location": {
+              "begin": {
+                "position": [132],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["12019181"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035612"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111124139],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "begin": {
+                "position": [143],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [159],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["2WH6"],
+                  "type": ["PDB"]
+                },
+                "code": ["ECO:0000244"]
+              }
+            ],
+            "type": ["helix"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150076],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150126],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["P"],
+            "variation": [
+              ["L"]
+            ],
+            "location": {
+              "position": {
+                "position": [33],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "code": ["ECO:0000305"]
+              }
+            ],
+            "type": ["sequence conflict"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123842],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111123844],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "begin": {
+                "position": [160],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [163],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["5AGX"],
+                  "type": ["PDB"]
+                },
+                "code": ["ECO:0000244"]
+              }
+            ],
+            "type": ["turn"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150127],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150138],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["N"],
+            "variation": [
+              ["A"]
+            ],
+            "location": {
+              "position": {
+                "position": [160],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000269"]
+              }
+            ],
+            "type": ["mutagenesis site"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150127],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150129],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "position": {
+                "position": [69],
+                "status": ["certain"]
+              }
+            },
+            "description": ["Phosphoserine; by MAPK."],
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["15486195"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000269"]
+              }
+            ],
+            "type": ["modified residue"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123950],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111123952],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "position": {
+                "position": [87],
+                "status": ["certain"]
+              }
+            },
+            "description": ["Phosphoserine."],
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["O88498"],
+                  "type": ["UniProtKB"]
+                },
+                "code": ["ECO:0000250"]
+              }
+            ],
+            "type": ["modified residue"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111124004],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111124006],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "position": {
+                "position": [77],
+                "status": ["certain"]
+              }
+            },
+            "description": ["Phosphoserine."],
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["O88498"],
+                  "type": ["UniProtKB"]
+                },
+                "code": ["ECO:0000250"]
+              }
+            ],
+            "type": ["modified residue"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123974],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111123976],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "begin": {
+                "position": [42],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [131],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["15147734"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035608"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123869],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111124138],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "begin": {
+                "position": [141],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035617"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150070],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["VFLNNYQAAEDHPRMVILRLLRYIVRLVWRMH"],
+            "variation": [
+              ["LEK"]
+            ],
+            "location": {
+              "begin": {
+                "position": [167],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["15147734"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035620"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111164133],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["ASMR"],
+            "variation": [
+              ["GIFE"]
+            ],
+            "location": {
+              "begin": {
+                "position": [132],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [135],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035614"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111124139],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150054],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "begin": {
+                "position": [136],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [198],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              },
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035616"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150055],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111164228],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["ASMRQAEPA"],
+            "variation": [
+              ["VREIEEVVV"]
+            ],
+            "location": {
+              "begin": {
+                "position": [132],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [140],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["17503221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035613"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111124139],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150069],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["GNPEGNHGGEGDSCPHGSPQGPLAPPASPGPFAT"],
+            "variation": [
+              ["VSLCHPGWSALVRSWLTATSNSQVQAVLLPQPPK"]
+            ],
+            "location": {
+              "begin": {
+                "position": [42],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [75],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11734221"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000303"]
+              }
+            ],
+            "type": ["splice variant"],
+            "id": ["VSP_035609"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111123869],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111123970],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "location": {
+              "position": {
+                "position": [94],
+                "status": ["certain"]
+              }
+            },
+            "description": ["Phosphoserine."],
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["23186163"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000244"]
+              }
+            ],
+            "type": ["modified residue"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111124025],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111124027],
+                "status": ["certain"]
+              }
+            }
+          },
+          {
+            "original": ["G"],
+            "variation": [
+              ["A"]
+            ],
+            "location": {
+              "position": {
+                "position": [156],
+                "status": ["certain"]
+              }
+            },
+            "evidence": [
+              {
+                "dbReference": {
+                  "id": ["11997495"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000269"]
+              },
+              {
+                "dbReference": {
+                  "id": ["17289999"],
+                  "type": ["PubMed"]
+                },
+                "code": ["ECO:0000269"]
+              }
+            ],
+            "type": ["mutagenesis site"],
+            "genomeLocation": {
+              "begin": {
+                "position": [111150115],
+                "status": ["certain"]
+              },
+              "end": {
+                "position": [111150117],
+                "status": ["certain"]
+              }
+            }
           }
         ],
-        "wildType": ["V"],
-        "frequency": [0],
-        "polyphenPrediction": ["probably damaging"],
-        "polyphenScore": [0.975],
-        "siftPrediction": ["deleterious"],
-        "siftScore": [0.01],
-        "somaticStatus": [0],
-        "cytogeneticBand": ["21q22.12"],
-        "consequenceType": ["missense"],
-        "genomicLocation": ["NC_000021.9:g.34880575C>T"],
-        "sourceType": ["large_scale_study"]
+        "ensemblGeneId": ["ENSG00000153094"],
+        "ensemblTranscriptId": ["ENST00000393256"],
+        "ensemblTranslationId": ["ENSP00000376943"]
       }
     ]
   }

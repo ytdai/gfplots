@@ -4,7 +4,9 @@ library(jsonlite)
 library(xml2)
 library(configr)
 
-requestURL <- "https://www.ebi.ac.uk/proteins/api/variation?offset=0&size=100&accession=Q01196"
+
+# GET /coordinates/{dbtype}:{dbid}
+requestURL <- "https://www.ebi.ac.uk/proteins/api/coordinates/Ensembl:ENST00000393256?offset=0&size=100"
 r <- GET(requestURL, accept("application/json"))
 
 stop_for_status(r)
@@ -18,4 +20,10 @@ head((as_list(xml)))
 
 json.file <- read.config("tests/test.json")
 write.config(json.file, "tests/test.json", write.type = "json")
+
+
+
+
+
+
 

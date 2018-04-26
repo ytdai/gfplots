@@ -1,0 +1,928 @@
+{
+  "accession": ["P41212"],
+  "entryName": ["ETV6_HUMAN"],
+  "sequence": ["MSETPAQCSIKQERISYTPPESPVPSYASSTPLHVPVPRALRMEEDSIRLPAHLRLQPIYWSRDDVAQWLKWAENEFSLRPIDSNTFEMNGKALLLLTKEDFRYRSPHSGDVLYELLQHILKQRKPRILFSPFFHPGNSIHTQPEVILHQNHEEDNCVQRTPRPSVDNVHHNPPTIELLHRSRSPITTNHRPSPDPEQRPLRSPLDNMIRRLSPAERAQGPRPHQENNHQESYPLSVSPMENNHCPASSESHPKPSSPRQESTRVIQLMPSPIMHPLILNPRHSVDFKQSRLSEDGLHREGKPINLSHREDLAYMNHIMVSVSPPEEHAMPIGRIADCRLLWDYVYQLLSDSRYENFIRWEDKESKIFRIVDPNGLARLWGNHKNRTNMTYEKMSRALRHYYKLNIIRKEPGQRLLFRFMKTPDEIMSGRTDRLEHLESQELDEQIYQEDEC"],
+  "sequenceChecksum": ["DEC45682ECADECBB"],
+  "taxid": [9606],
+  "features": [
+    {
+      "type": ["CHAIN"],
+      "category": ["MOLECULE_PROCESSING"],
+      "ftId": ["PRO_0000204121"],
+      "description": ["Transcription factor ETV6"],
+      "begin": ["1"],
+      "end": ["452"]
+    },
+    {
+      "type": ["DOMAIN"],
+      "category": ["DOMAINS_AND_SITES"],
+      "description": ["PNT"],
+      "begin": ["40"],
+      "end": ["124"],
+      "evidences": [
+        {
+          "code": ["ECO:0000255"],
+          "source": {
+            "name": ["PROSITE-ProRule"],
+            "id": ["PRU00762"],
+            "url": ["http://prosite.expasy.org/unirule/PRU00762"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["DNA_BIND"],
+      "category": ["DOMAINS_AND_SITES"],
+      "description": ["ETS"],
+      "begin": ["339"],
+      "end": ["420"],
+      "evidences": [
+        {
+          "code": ["ECO:0000255"],
+          "source": {
+            "name": ["PROSITE-ProRule"],
+            "id": ["PRU00237"],
+            "url": ["http://prosite.expasy.org/unirule/PRU00237"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["SITE"],
+      "category": ["DOMAINS_AND_SITES"],
+      "description": ["Breakpoint for translocation to form CHIC2-ETV6 in AML"],
+      "begin": ["11"],
+      "end": ["12"]
+    },
+    {
+      "type": ["SITE"],
+      "category": ["DOMAINS_AND_SITES"],
+      "description": ["Breakpoint for translocation to form ETV6-MDS2 in MDS"],
+      "begin": ["54"],
+      "end": ["55"]
+    },
+    {
+      "type": ["SITE"],
+      "category": ["DOMAINS_AND_SITES"],
+      "description": ["Breakpoint for translocation to form PAX5-ETV6"],
+      "begin": ["55"],
+      "end": ["56"]
+    },
+    {
+      "type": ["SITE"],
+      "category": ["DOMAINS_AND_SITES"],
+      "description": ["Breakpoint for translocation to form ETV6-AML1 in ALL"],
+      "begin": ["336"],
+      "end": ["337"]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["N6-acetyllysine; alternate"],
+      "begin": ["11"],
+      "end": ["11"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["19608861"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/19608861"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/19608861"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["Phosphothreonine"],
+      "begin": ["18"],
+      "end": ["18"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["19690332"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/19690332"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/19690332"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["Phosphoserine"],
+      "begin": ["22"],
+      "end": ["22"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["18669648"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/18669648"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/18669648"]
+          }
+        },
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["19690332"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/19690332"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/19690332"]
+          }
+        },
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["20068231"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/20068231"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/20068231"]
+          }
+        },
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["21406692"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/21406692"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/21406692"]
+          }
+        },
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["12435397"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/12435397"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/12435397"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["Phosphoserine"],
+      "begin": ["213"],
+      "end": ["213"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["21406692"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/21406692"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/21406692"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["Phosphoserine"],
+      "begin": ["238"],
+      "end": ["238"],
+      "evidences": [
+        {
+          "code": ["ECO:0000250"],
+          "source": {
+            "name": ["UniProtKB"],
+            "id": ["P97360"],
+            "url": ["http://www.uniprot.org/uniprot/P97360"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["Phosphoserine; by MAPK14"],
+      "begin": ["257"],
+      "end": ["257"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["12435397"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/12435397"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/12435397"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["N6-acetyllysine; alternate"],
+      "begin": ["302"],
+      "end": ["302"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["19608861"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/19608861"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/19608861"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MOD_RES"],
+      "category": ["PTM"],
+      "description": ["Phosphoserine"],
+      "begin": ["323"],
+      "end": ["323"],
+      "evidences": [
+        {
+          "code": ["ECO:0000250"],
+          "source": {
+            "name": ["UniProtKB"],
+            "id": ["P97360"],
+            "url": ["http://www.uniprot.org/uniprot/P97360"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["CROSSLNK"],
+      "category": ["PTM"],
+      "description": ["Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2); alternate"],
+      "begin": ["11"],
+      "end": ["11"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["25218447"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/25218447"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/25218447"]
+          }
+        },
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["25755297"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/25755297"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/25755297"]
+          }
+        },
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["25772364"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/25772364"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/25772364"]
+          }
+        },
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["28112733"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/28112733"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/28112733"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["CROSSLNK"],
+      "category": ["PTM"],
+      "description": ["Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)"],
+      "begin": ["288"],
+      "end": ["288"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["25755297"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/25755297"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/25755297"]
+          }
+        },
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["28112733"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/28112733"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/28112733"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["CROSSLNK"],
+      "category": ["PTM"],
+      "description": ["Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2); alternate"],
+      "begin": ["302"],
+      "end": ["302"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["28112733"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/28112733"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/28112733"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["CROSSLNK"],
+      "category": ["PTM"],
+      "description": ["Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)"],
+      "begin": ["403"],
+      "end": ["403"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["28112733"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/28112733"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/28112733"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["CROSSLNK"],
+      "category": ["PTM"],
+      "description": ["Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)"],
+      "begin": ["421"],
+      "end": ["421"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["28112733"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/28112733"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/28112733"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["VARIANT"],
+      "category": ["VARIANTS"],
+      "ftId": ["VAR_073322"],
+      "description": ["in THC5; abrogates DNA binding; alters subcellular location; decreases transcriptional repression in a dominant-negative fashion; dbSNP:rs724159947"],
+      "alternativeSequence": ["L"],
+      "begin": ["214"],
+      "end": ["214"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["25581430"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/25581430"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/25581430"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["VARIANT"],
+      "category": ["VARIANTS"],
+      "ftId": ["VAR_034600"],
+      "description": ["in one individual with AML; somatic mutation; unable to repress transcription"],
+      "alternativeSequence": ["YG"],
+      "begin": ["344"],
+      "end": ["344"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["15806161"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/15806161"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/15806161"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["VARIANT"],
+      "category": ["VARIANTS"],
+      "ftId": ["VAR_073323"],
+      "description": ["in THC5; abrogates DNA binding; alters subcellular location; decreases transcriptional repression in a dominant-negative fashion; dbSNP:rs724159946"],
+      "alternativeSequence": ["Q"],
+      "begin": ["369"],
+      "end": ["369"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["25581430"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/25581430"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/25581430"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["VARIANT"],
+      "category": ["VARIANTS"],
+      "ftId": ["VAR_073324"],
+      "description": ["in THC5; abrogates DNA binding; alters subcellular location; decreases transcriptional repression in a dominant-negative fashion; dbSNP:rs724159945"],
+      "alternativeSequence": ["C"],
+      "begin": ["399"],
+      "end": ["399"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["25581430"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/25581430"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/25581430"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MUTAGEN"],
+      "category": ["MUTAGENESIS"],
+      "description": ["No effect"],
+      "alternativeSequence": ["A"],
+      "begin": ["22"],
+      "end": ["22"]
+    },
+    {
+      "type": ["MUTAGEN"],
+      "category": ["MUTAGENESIS"],
+      "description": ["No effect"],
+      "alternativeSequence": ["A"],
+      "begin": ["213"],
+      "end": ["213"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["12435397"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/12435397"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/12435397"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MUTAGEN"],
+      "category": ["MUTAGENESIS"],
+      "description": ["No effect"],
+      "alternativeSequence": ["A"],
+      "begin": ["238"],
+      "end": ["238"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["12435397"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/12435397"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/12435397"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["MUTAGEN"],
+      "category": ["MUTAGENESIS"],
+      "description": ["No phosphorylation by MAPK14"],
+      "alternativeSequence": ["A"],
+      "begin": ["257"],
+      "end": ["257"],
+      "evidences": [
+        {
+          "code": ["ECO:0000269"],
+          "source": {
+            "name": ["PubMed"],
+            "id": ["12435397"],
+            "url": ["http://www.ncbi.nlm.nih.gov/pubmed/12435397"],
+            "alternativeUrl": ["http://europepmc.org/abstract/MED/12435397"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["12"],
+      "end": ["18"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["5L0P"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/5L0P"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["TURN"],
+      "category": ["STRUCTURAL"],
+      "begin": ["20"],
+      "end": ["22"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["5L0P"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/5L0P"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["23"],
+      "end": ["27"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["5L0P"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/5L0P"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["30"],
+      "end": ["38"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["5L0P"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/5L0P"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["52"],
+      "end": ["54"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["58"],
+      "end": ["60"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["63"],
+      "end": ["76"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["TURN"],
+      "category": ["STRUCTURAL"],
+      "begin": ["84"],
+      "end": ["87"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["91"],
+      "end": ["94"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["99"],
+      "end": ["105"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["TURN"],
+      "category": ["STRUCTURAL"],
+      "begin": ["107"],
+      "end": ["109"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["110"],
+      "end": ["122"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["1JI7"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/1JI7"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["341"],
+      "end": ["350"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["352"],
+      "end": ["354"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["TURN"],
+      "category": ["STRUCTURAL"],
+      "begin": ["355"],
+      "end": ["357"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["STRAND"],
+      "category": ["STRUCTURAL"],
+      "begin": ["358"],
+      "end": ["362"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["363"],
+      "end": ["365"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["STRAND"],
+      "category": ["STRUCTURAL"],
+      "begin": ["367"],
+      "end": ["371"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["373"],
+      "end": ["383"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["391"],
+      "end": ["403"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["STRAND"],
+      "category": ["STRUCTURAL"],
+      "begin": ["406"],
+      "end": ["408"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["STRAND"],
+      "category": ["STRUCTURAL"],
+      "begin": ["411"],
+      "end": ["419"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["424"],
+      "end": ["426"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["STRAND"],
+      "category": ["STRUCTURAL"],
+      "begin": ["430"],
+      "end": ["432"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    },
+    {
+      "type": ["HELIX"],
+      "category": ["STRUCTURAL"],
+      "begin": ["434"],
+      "end": ["438"],
+      "evidences": [
+        {
+          "code": ["ECO:0000244"],
+          "source": {
+            "name": ["PDB"],
+            "id": ["2DAO"],
+            "url": ["http://www.ebi.ac.uk/pdbe-srv/view/entry/2DAO"]
+          }
+        }
+      ]
+    }
+  ]
+}
