@@ -17,7 +17,7 @@ columns_name <- listColumns(edb)
 columns_name <- columns_name[-which(columns_name == "name")]
 columns_name <- columns_name[-which(columns_name == "value")]
 
-tx <- transcripts(edb, filter = list(GenenameFilter("ETV6")),
+tx <- transcripts(edb, filter = list(GenenameFilter(c("ETV6", "RUNX1", "AA"))),
                   columns = listColumns(edb, c("tx")))
 
 mcols(tx)

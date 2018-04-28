@@ -1,0 +1,20 @@
+gene_1:
+  name: MYGENE
+  chromosome: chr_undefine
+  start: 1
+  end: 2000
+  coord: 
+    feature:
+      type: exon_1
+      start: 1
+      end: 100
+    feature:
+      type: exon_2
+      start: 400
+      end: 1000
+    feature:
+      type: exon_3
+      start: 1200
+      end: 2000
+
+

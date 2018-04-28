@@ -10,11 +10,10 @@ Description: This gfplots packages enables user to easily display
     browser such as Safari and Chrome. 
 License: MIT + file LICENSE
 Encoding: UTF-8
-Depends: 
-Imports: 
-Suggests: 
+Depends: ensembldb
+Suggests: knitr
 VignetteBuilder: knitr
 URL: https://github.com/ytdai/gfplots
 BugReports: https://github.com/ytdai/gfplots/issues
-Type: Package
 LazyLoad: yes
+RoxygenNote: 6.0.1
