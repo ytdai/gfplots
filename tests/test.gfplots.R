@@ -12,17 +12,21 @@ library(org.Hs.eg.db)
 
 roxygenise()
 
-db <- EnsDb.Hsapiens.v75
-x <- read.xlsx("../mutation.xlsx")
-
+edb <- EnsDb.Hsapiens.v75
 
 data = "../mutation.txt"
 update.data = FALSE
+value = 600
+metadata = "width"
+initial = F
+
+coding.only = T
 
 type = "mutation"
 
 
 obj <- readMutation(data = data)
+obj <- updatePlotParam(obj)
 
 
 

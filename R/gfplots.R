@@ -7,10 +7,12 @@
 #'
 #' @details
 #'
-#'
 #' @param obj an list object. Contains all plot parameter
 #' @param type a character. Plot type, "mutation" or "fusion"
 #' @param edb an S4 object. EnsDb.Hsapiens.v75 or EnsDb.Hsapiens.v86
+#' @param verbose logical.
+#' @param reverse logical. If reverse is TRUE, genes in the negative
+#' chain will be reversed
 #'
 #' @author Yuting Dai
 #' @export
@@ -22,7 +24,9 @@ gfplots <- function(obj,
                     type = c("mutation", "fusion"),
                     edb,
                     output.dir = ".",
-                    verbose = FALSE) {
+                    verbose = FALSE,
+                    reverse = T,
+                    coding.only = T) {
 
   #####################
   # checking paramters
@@ -50,7 +54,10 @@ gfplots <- function(obj,
   #####################
   # plot
   #####################
-
+  if (type == "mutation") {
+    obj <- fetchTranscript(obj, edb = edb)
+    obj <- fetchProtein(obj, edb = edb)
+  }
 }
 
 
