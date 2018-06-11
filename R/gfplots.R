@@ -23,7 +23,7 @@
 gfplots <- function(obj,
                     type = c("mutation", "fusion"),
                     edb,
-                    output.dir = ".",
+                    output.dir = "./gfplots",
                     verbose = FALSE,
                     reverse = T,
                     coding.only = T) {
