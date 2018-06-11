@@ -4,27 +4,19 @@
 \alias{gfplots}
 \title{main function of gfplots packages}
 \usage{
-gfplots(x, db.type = "ensembl", output.directory = ".",
-  plot.type = "mutation", version = "GRCh37", plot.condig = NULL)
+gfplots(obj, type = c("mutation", "fusion"), edb, output.dir = ".",
+  verbose = FALSE)
 }
 \arguments{
-\item{x}{data.frame. The basic information that need to be plotted
-using gfplots. If \param{plot.type} is "mutation", then the
-data.frame show only have}
+\item{obj}{an list object. Contains all plot parameter}
 
-\item{db.type}{string.}
+\item{type}{a character. Plot type, "mutation" or "fusion"}
 
-\item{output.directory}{string. The absolute path of your
-output dirctory which contains your report.}
-
-\item{plot.type}{string. "mutation" or "fusion". Different plot.type
-corresponds different plot style.}
-}
-\value{
-
+\item{edb}{an S4 object. EnsDb.Hsapiens.v75 or EnsDb.Hsapiens.v86}
 }
 \description{
-\code{gfplots} provides an
+\code{gfplots} is an useful package to visualize gene fusions and
+mutations. The defaluse annotation database is ENSEMBL
 }
 \details{
 gfplots packages

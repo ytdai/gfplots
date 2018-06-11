@@ -6,27 +6,23 @@ library(httr)
 library(jsonlite)
 library(xml2)
 library(configr)
+library(roxygen2)
 
+library(org.Hs.eg.db)
+
+roxygenise()
 
 db <- EnsDb.Hsapiens.v75
 x <- read.xlsx("../mutation.xlsx")
 
 
+data = "../mutation.txt"
+update.data = FALSE
 
-db.type = "ensembl"
-version = "GRCh37"
-output.directory = "tests/"
-output.name = paste0("gfplots_", as.character(floor(as.numeric(Sys.time()))))
-plot.type = "mutation"
-
-# visualization color theme
-plot.config = NULL
-gene.config.db = NULL
-protein.config.db = NULL
+type = "mutation"
 
 
-
-
+obj <- readMutation(data = data)
 
 
 
