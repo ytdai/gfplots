@@ -4,7 +4,7 @@
 \alias{updatePlotParam}
 \title{updatePlotParam}
 \usage{
-updatePlotParam(obj, metadata = NULL, value = NULL)
+updatePlotParam(obj, metadata = NULL, value = NULL, initial = F)
 }
 \arguments{
 \item{obj}{a list object. An object which contain all parameters

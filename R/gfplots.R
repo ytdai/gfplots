@@ -57,6 +57,8 @@ gfplots <- function(obj,
   if (type == "mutation") {
     obj <- fetchTranscript(obj, edb = edb)
     obj <- fetchProtein(obj, edb = edb)
+    obj <- renderGene(obj)
+    obj <- renderProtein(obj)
   }
 }
 

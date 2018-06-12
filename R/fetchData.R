@@ -22,6 +22,16 @@ fetchTranscript <- function(obj,
   obj$transcript <- tx
   obj$transcript.coding <- names(obj$transcript)[grep("coding", tx$tx_biotype)]
 
+  obj$exons <- exonsBy(edb, filter = list(TxNameFilter(obj$transcript$tx_id)))
+  obj$cds <- cdsBy(edb, filter = list(TxNameFilter(obj$transcript.coding)))
+
+  obj$transcript.zoom <- data.frame(
+    transcript = obj$transcript$tx_id,
+    start = obj$transcript@ranges@start,
+    length = obj$transcript@ranges@width,
+    zoom = obj$plot.width * 0.8 / obj$transcript@ranges@width
+  )
+
   return(obj)
 }
 
@@ -36,12 +46,13 @@ fetchProtein <- function(obj,
   transcript.coding <- obj$transcript.coding
 
   protein <- proteins(edb, filter = ~ tx_id == transcript.coding,
-           columns = c("protein_id", "tx_id",
-                       listColumns(edb, "protein_domain")))
+                      columns = c("protein_id", "tx_id",
+                                  listColumns(edb, c("protein", "protein_domain"))))
 
   domain <- as.character(unique(protein$protein_domain_id[which(protein$protein_domain_source == "pfam")]))
   domain = domain[!is.na(domain)]
 
+  # match domain color
   if (length(domain) <= length(obj$color.theme)) {
     domain <- data.frame(
       domain = domain,
@@ -57,6 +68,11 @@ fetchProtein <- function(obj,
 
   obj$protein <- protein
   obj$protein.domain <- domain
+  obj$protein.zoom <- data.frame(
+    transcript = obj$protein$tx_id,
+    length = nchar(obj$protein$protein_sequence),
+    zoom = obj$plot.width * 0.8 / nchar(obj$protein$protein_sequence)
+  )
 
   return(obj)
 }

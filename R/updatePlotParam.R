@@ -27,13 +27,13 @@ updatePlotParam <- function(obj,
     obj$color.theme.default <- list(
       max.show.num = 0,
       # parameters for protein
-      protein.body = "#DDDDDD",
-      protein.stroke = "#000000",
+      protein.body.color = "#DDDDDD",
+      protein.stroke.color = "#000000",
       protein.body.height = 20,
       protein.domain.height = 20,
       protein.mut.height = 30,
       # parameters for gene
-      gene.body = "#0066FF",
+      gene.body.color = "#0066FF",
       gene.body.height = 5,
       gene.exon.height = 10,
       gene.cds.height = 15,

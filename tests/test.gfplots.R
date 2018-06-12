@@ -9,6 +9,7 @@ library(configr)
 library(roxygen2)
 
 library(org.Hs.eg.db)
+library(easySVG)
 
 roxygenise()
 
@@ -23,6 +24,8 @@ initial = F
 coding.only = T
 
 type = "mutation"
+
+names(obj)
 
 
 obj <- readMutation(data = data)
