@@ -27,6 +27,9 @@ type = "mutation"
 
 names(obj)
 
+for (i in list.files("R/")) {
+  source(paste0("R/", i))
+}
 
 obj <- readMutation(data = data)
 obj <- updatePlotParam(obj)

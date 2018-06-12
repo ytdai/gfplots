@@ -17,6 +17,7 @@ fetchTranscript <- function(obj,
     message("[WARNING] gene << ", paste(a, collapse = " "), " >> is not a correct symbol")
     message("[INFO] update gene list in object")
     obj$gene.list <- gene.list[gene.list %in% gene.list.tx]
+    obj$mutation.data <- obj$mutation.data[obj$mutation.data$Symbol %in% obj$gene.list, ]
   }
 
   obj$transcript <- tx
@@ -26,7 +27,9 @@ fetchTranscript <- function(obj,
   obj$cds <- cdsBy(edb, filter = list(TxNameFilter(obj$transcript.coding)))
 
   obj$transcript.zoom <- data.frame(
+    symbol = obj$transcript$gene_name,
     transcript = obj$transcript$tx_id,
+    type = obj$transcript$tx_biotype,
     start = obj$transcript@ranges@start,
     length = obj$transcript@ranges@width,
     zoom = obj$plot.width * 0.8 / obj$transcript@ranges@width
