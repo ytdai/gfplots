@@ -24,13 +24,20 @@ renderMutation <- function(obj, reverse = T) {
   mutation.gene.svg <- lapply(1:length(mark.transcript), function(x) {
     sub.name <- mark.transcript[x]
     sub.info <- obj$mutation.data[which(obj$mutation.data$Transcript == sub.name), ]
+    sub.info <- sub.info[order(sub.info$convert), ]
 
-    pos <- table(sub.info$VariantPos)
-    sub.mut.type <- lapply(1:length(pos), function(xx) {
-      tmp <- sub.info[which(sub.info$VariantPos == names(pos)[xx]), ]
+    pos.tmp <- table(sub.info$VariantPos)
+    sub.mut.type <- lapply(1:length(pos.tmp), function(xx) {
+      tmp <- sub.info[which(sub.info$VariantPos == names(pos.tmp)[xx]), ]
       tmp <- length(table(tmp$Tag))
     })
-    pos$mut.type <- unlist(sub.mut.type)
+    pos.tmp <- data.frame(
+      pos = names(pos.tmp),
+      freq = as.numeric(pos.tmp),
+      type = unlist(sub.mut.type)
+    )
+
+    # dynamic position
   })
 
 
