@@ -40,5 +40,5 @@ renderMutation <- function(obj, reverse = T) {
     # dynamic position
   })
 
-
+  return(obj)
 }
